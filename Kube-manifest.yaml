@@ -1,0 +1,11 @@
+apiVersion: manifest.k8s.io/v1alpha1
+kind: Manifest
+metadata:
+  name: redis
+description: Redis Deployment using empty-dir.
+resources:
+- deployment.yaml
+- service.yaml
+genericSecrets:
+- name: redis-pass
+  literals: [password=admin]

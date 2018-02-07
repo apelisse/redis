@@ -1,8 +1,8 @@
-## Deploy Redis to Kubernetes
+# Deploy Redis to Kubernetes
 
 `kinflate inflate -f . | kubectl apply -f -`
 
-# Check that the redis pod has started successfully
+## Check that the redis pod has started successfully
 
 `kubectl get pods`
 

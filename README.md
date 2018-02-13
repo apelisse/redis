@@ -12,6 +12,8 @@ Should show a pod named:
 
 Next look at the logs:
 
+
+
 `kubectl logs <pod-name>`
 
 The last line of the log should say:

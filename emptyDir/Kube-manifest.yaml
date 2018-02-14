@@ -5,7 +5,5 @@ metadata:
 description: Redis Deployment using empty-dir.
 resources:
 - deployment.yaml
+- secret.yaml
 - service.yaml
-genericSecrets:
-- name: redis-pass
-  literals: [password=admin]

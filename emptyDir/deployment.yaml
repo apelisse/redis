@@ -17,7 +17,7 @@ spec:
         - name: REDIS_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: redis-pass
+              name: redis-password
               key: password
         ports:
         - name: redis
